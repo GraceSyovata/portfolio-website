@@ -1,0 +1,147 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font: 16px/1.5 Arial, Helvetica, sans-serif;
+  color: #1f2937;
+  background-color: #f8fafc;
+  margin: 0;
+  padding: 0 0 2rem;
+}
+
+header,
+main,
+footer {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+nav {
+  background-color: #e2e8f0;
+  border: 1px solid #cbd5e1;
+  padding: 0.75rem;
+  margin: 0.75rem 0 1rem;
+}
+
+nav a {
+  color: #0f172a;
+  text-decoration: none;
+  margin-right: 1rem;
+  padding: 0.2rem 0.4rem;
+  border: 1px solid transparent;
+}
+
+nav a:hover {
+  background-color: #cbd5e1;
+  border-color: #94a3b8;
+}
+
+main section {
+  background-color: #ffffff;
+  border: 1px solid #cbd5e1;
+  margin: 0.75rem 0;
+  padding: 1rem;
+}
+
+main section p {
+  margin: 0.5rem 0;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin-bottom: 0.5rem;
+  color: #0f172a;
+}
+
+.lead {
+  color: #334155;
+  font-style: italic;
+}
+
+.skills-list {
+  list-style-type: square;
+  margin-left: 1.25rem;
+}
+
+.profile-pic {
+  max-width: 100%;
+  width: 360px;
+  border: 2px solid #94a3b8;
+  margin: 0.5rem 0;
+}
+
+.media-block {
+  margin: 0.75rem 0;
+}
+
+#current-date {
+  display: inline-block;
+  background-color: #f1f5f9;
+  border: 1px solid #94a3b8;
+  padding: 0.5rem 0.75rem;
+  margin-top: 0.5rem;
+  font-style: italic;
+}
+
+.signature-name {
+  font-style: italic;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 0.5rem;
+}
+
+caption {
+  margin-bottom: 0.4rem;
+  font-weight: bold;
+}
+
+th,
+td {
+  border: 1px solid #94a3b8;
+  padding: 0.5rem;
+  text-align: left;
+}
+
+#contact-form {
+  display: grid;
+  gap: 0.6rem;
+}
+
+input,
+textarea,
+select,
+button {
+  font: inherit;
+  border: 1px solid #94a3b8;
+  padding: 0.45rem;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: 2px solid #94a3b8;
+}
+
+fieldset {
+  border: 1px solid #94a3b8;
+  padding: 0.5rem;
+}
+
+button {
+  width: fit-content;
+  background-color: #e2e8f0;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #cbd5e1;
+}
