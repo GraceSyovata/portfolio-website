@@ -2,49 +2,74 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: "Lora", serif;
 }
 
 body {
-  font: 16px/1.5 Arial, Helvetica, sans-serif;
-  color: #1f2937;
-  background-color: #f8fafc;
+  font: 16px/1.5 "Lora", serif;
+  color: #22303c;
+  background: #eef6fb;
   margin: 0;
   padding: 0 0 2rem;
+  text-align: center;
 }
 
 header,
-main,
 footer {
   max-width: 900px;
   margin: 0 auto;
   padding: 1rem;
 }
 
+main {
+  width: 100%;
+  max-width: none;
+  margin: 0;
+  padding: 1rem 2rem;
+}
+
 nav {
-  background-color: #e2e8f0;
-  border: 1px solid #cbd5e1;
-  padding: 0.75rem;
+  background-color: #d9edf8;
+  border: 1px solid #b6d4e4;
+  padding: 0.6rem 1rem;
   margin: 0.75rem 0 1rem;
+  border-radius: 50px;
+  box-shadow: 0 3px 10px rgba(48, 102, 140, 0.2);
 }
 
 nav a {
-  color: #0f172a;
+  color: #1f4f6f;
   text-decoration: none;
   margin-right: 1rem;
-  padding: 0.2rem 0.4rem;
+  padding: 0.5rem 1.2rem;
   border: 1px solid transparent;
+  border-radius: 50px;
+  font-weight: 600;
 }
 
 nav a:hover {
-  background-color: #cbd5e1;
-  border-color: #94a3b8;
+  background-color: #2b6f97;
+  border-color: #4d7d9a;
+  color: #ffffff;
+  box-shadow: 0 4px 8px rgba(43, 111, 151, 0.35);
+}
+
+nav.nav .nav-link {
+  color: #1f4f6f;
+}
+
+nav.nav .nav-link:hover,
+nav.nav .nav-link:focus {
+  background-color: #2b6f97;
+  color: #ffffff;
 }
 
 main section {
   background-color: #ffffff;
-  border: 1px solid #cbd5e1;
+  border: 1px solid #c8ddea;
   margin: 0.75rem 0;
   padding: 1rem;
+  width: 100%;
 }
 
 main section p {
@@ -56,12 +81,18 @@ h2,
 h3,
 h4 {
   margin-bottom: 0.5rem;
-  color: #0f172a;
+  color: #1b3a4d;
+}
+
+h1.signature {
+  font-size: 3.5rem;
+  color: #2b6f97;
 }
 
 .lead {
-  color: #334155;
+  color: #356b8f;
   font-style: italic;
+  font-size: 1.2rem;
 }
 
 .skills-list {
@@ -72,7 +103,8 @@ h4 {
 .profile-pic {
   max-width: 100%;
   width: 360px;
-  border: 2px solid #94a3b8;
+  border: 3px solid #6fa3c4;
+  border-radius: 14px;
   margin: 0.5rem 0;
 }
 
@@ -82,15 +114,37 @@ h4 {
 
 #current-date {
   display: inline-block;
-  background-color: #f1f5f9;
-  border: 1px solid #94a3b8;
+  background-color: #e6f2f9;
+  border: 1px solid #6fa3c4;
   padding: 0.5rem 0.75rem;
   margin-top: 0.5rem;
   font-style: italic;
 }
 
+.date-container {
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: 8px;
+  color: #1f4f6f;
+  margin-bottom: 8px;
+}
+
 .signature-name {
   font-style: italic;
+}
+
+.left-aligned-text {
+  text-align: left;
+  display: inline-block;
+  width: 100%;
+}
+
+.cv {
+  padding: 5% 8%;
+}
+
+.crafted {
+  background-color: #e6f2f9;
 }
 
 table {
@@ -106,7 +160,7 @@ caption {
 
 th,
 td {
-  border: 1px solid #94a3b8;
+  border: 1px solid #6fa3c4;
   padding: 0.5rem;
   text-align: left;
 }
@@ -121,27 +175,34 @@ textarea,
 select,
 button {
   font: inherit;
-  border: 1px solid #94a3b8;
+  border: 1px solid #6fa3c4;
   padding: 0.45rem;
 }
 
 input:focus,
 textarea:focus,
 select:focus {
-  outline: 2px solid #94a3b8;
+  outline: 2px solid #2b6f97;
 }
 
 fieldset {
-  border: 1px solid #94a3b8;
+  border: 1px solid #6fa3c4;
   padding: 0.5rem;
+}
+
+.form-label {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  color: #1f4f6f;
 }
 
 button {
   width: fit-content;
-  background-color: #e2e8f0;
+  background-color: #d9edf8;
   cursor: pointer;
 }
 
 button:hover {
-  background-color: #cbd5e1;
+  background-color: #b8dced;
 }

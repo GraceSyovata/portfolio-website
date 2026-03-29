@@ -10,52 +10,53 @@
 
 <body>
     <header>
-        <h1>Eddy Aladin</h1>
-        <p class="lead">Software Developer | Information Systems Specialist</p>
-        <nav aria-label="Portfolio Navigation">
-            <a href="resume.html">Resume</a>
-            <a href="cover-letter.html">Cover Letter</a>
-            <a href="career-goals.html">Career Goals</a>
+        <h1 class="signature">Eddy Aladin</h1>
+        <p class="lead">Web Developer | Problem Solver | Lifelong Learner</p>
+        <nav class="nav" aria-label="Portfolio Navigation">
+            <a class="nav-link" href="resume.html">Resume</a>
+            <a class="nav-link" href="cover-letter.html">Cover Letter</a>
+            <a class="nav-link" href="career-goals.html">Career Goals</a>
         </nav>
     </header>
 
-    <main>
+    <main class="cv">
         <article>
             <section>
-                <h2>Professional Summary</h2>
+                <h2>Profile</h2>
                 <p>
-                    I am a detail-oriented developer with experience building user-focused web pages using
-                    <strong>HTML</strong>, <strong>CSS</strong>, and <strong>JavaScript</strong>. I value
-                    <em>clear communication</em>, testing, and continuous improvement.
+                    I build clean, accessible web pages using
+                    <strong>HTML</strong>, <strong>CSS</strong>, and <strong>JavaScript</strong>. I enjoy translating
+                    complex requirements into practical, user-focused solutions and approach each project with
+                    <em>curiosity, reliability, and accountability</em>.
                 </p>
                 <hr>
-                <div id="current-date" class="date-box">
-                    <span>Current Date:</span>
+                <div id="current-date" class="date-container">
+                    <span>Portfolio Updated:</span>
                 </div>
             </section>
 
             <section>
-                <h3>Technical Skills</h3>
+                <h3>Core Skills</h3>
                 <ul class="skills-list">
-                    <li>HTML5, CSS3, JavaScript</li>
-                    <li>Debugging and Problem Solving</li>
-                    <li>Version Control with Git</li>
+                    <li>Front-End Development: semantic HTML, responsive CSS, JavaScript fundamentals</li>
+                    <li>Software Quality: debugging workflows, browser developer tools, functional testing</li>
+                    <li>Collaboration: Git version control, documentation, and clear technical communication</li>
                 </ul>
             </section>
 
             <section>
-                <h4>Education and Projects</h4>
+                <h4>Education and Learning</h4>
                 <p>
-                    Bachelor-level coursework in information technology with project work in front-end web
-                    development.<br>
-                    Additional portfolio projects available upon request.
+                    Ongoing coursework in information technology and software development, with portfolio projects
+                    focused on usability, structure, and maintainability.<br>
+                    Additional project examples are available during interviews.
                 </p>
             </section>
 
             <section>
-                <h3>Experience Snapshot</h3>
+                <h3>Selected Experience</h3>
                 <table>
-                    <caption>Project and Experience Summary</caption>
+                    <caption>Experience and Project Highlights</caption>
                     <thead>
                         <tr>
                             <th>Role</th>
@@ -67,20 +68,20 @@
                     <tbody>
                         <tr>
                             <td>Student Developer</td>
-                            <td>Academic Project Team</td>
-                            <td>Responsive Portfolio Website</td>
+                            <td>WGU Project Work</td>
+                            <td>Portfolio design, structure, and content implementation</td>
                             <td>2025</td>
                         </tr>
                         <tr>
-                            <td>IT Support Assistant</td>
-                            <td>Campus Lab</td>
-                            <td>Troubleshooting and User Support</td>
+                            <td>Technical Support Assistant</td>
+                            <td>Community Learning Center</td>
+                            <td>User troubleshooting and system setup support</td>
                             <td>2024</td>
                         </tr>
                         <tr>
-                            <td>Junior Web Intern</td>
-                            <td>Local Business Internship</td>
-                            <td>Content Updates and UI Improvements</td>
+                            <td>Web Content Contributor</td>
+                            <td>Small Business Internship</td>
+                            <td>Website updates, layout refinements, and QA checks</td>
                             <td>2023</td>
                         </tr>
                     </tbody>
@@ -90,14 +91,14 @@
     </main>
 
     <footer>
-        <p><span>Contact:</span> eddy.aladin@example.com</p>
+        <p><span>Contact:</span> eddy.aladin@example.com | Portfolio prepared for WGU Web Development Foundations</p>
     </footer>
 
     <script>
         const dateContainer = document.getElementById('current-date');
         const today = new Date().toLocaleDateString();
-        dateContainer.innerHTML = `<span>Current Date:</span> ${today}`;
-        console.log('Resume page loaded successfully on ' + today);
+        dateContainer.innerHTML = `<span>Portfolio Updated:</span> ${today}`;
+        console.log('Eddy Aladin portfolio resume rendered on ' + today);
     </script>
 </body>
 

@@ -11,25 +11,26 @@
 <body>
     <header>
         <h1>Career Goals</h1>
-        <nav aria-label="Portfolio Navigation">
-            <a href="resume.html">Resume</a>
-            <a href="cover-letter.html">Cover Letter</a>
-            <a href="career-goals.html">Career Goals</a>
+        <nav class="nav" aria-label="Portfolio Navigation">
+            <a class="nav-link" href="resume.html">Resume</a>
+            <a class="nav-link" href="cover-letter.html">Cover Letter</a>
+            <a class="nav-link" href="career-goals.html">Career Goals</a>
         </nav>
     </header>
 
     <main>
         <section>
-            <h2>Professional Direction</h2>
+            <h2>Career Vision</h2>
             <p>
-                My short-term goal is to strengthen front-end development and debugging skills while building
-                reliable web applications. Long term, I plan to contribute as a full-stack developer in projects
-                that deliver measurable business value (U.S. Bureau of Labor Statistics, 2025).
+                Over the next 12 months, I plan to strengthen front-end development and debugging practices by building
+                projects with stronger accessibility and performance standards. Long term, I aim to grow into a
+                full-stack engineering role where I can deliver dependable software for real users (U.S. Bureau of
+                Labor Statistics, 2025).
             </p>
         </section>
 
         <section>
-            <h2>Local Media</h2>
+            <h2>Portfolio Media</h2>
             <img src="images/RGN1 Task 1 Portfolio Website.jpg" alt="Portfolio project preview" class="profile-pic">
             <div class="media-block">
                 <audio controls>
@@ -46,24 +47,24 @@
         </section>
 
         <section>
-            <h2>Contact Form</h2>
+            <h2>Professional Contact Form</h2>
             <form id="contact-form" action="https://wp.zybooks.com/form-viewer.php" method="post">
-                <label for="first-name">First Name</label>
+                <label class="form-label" for="first-name">First Name</label>
                 <input type="text" id="first-name" name="first-name" required>
 
-                <label for="last-name">Last Name</label>
+                <label class="form-label" for="last-name">Last Name</label>
                 <input type="text" id="last-name" name="last-name" required>
 
-                <label for="company-name">Company Name</label>
+                <label class="form-label" for="company-name">Company Name</label>
                 <input type="text" id="company-name" name="company-name" required>
 
-                <label for="email">Email Address</label>
+                <label class="form-label" for="email">Email Address</label>
                 <input type="email" id="email" name="email" required>
 
-                <label for="phone">Phone Number</label>
+                <label class="form-label" for="phone">Phone Number</label>
                 <input type="tel" id="phone" name="phone" required>
 
-                <label for="message">Message</label>
+                <label class="form-label" for="message">Message</label>
                 <textarea id="message" name="message" rows="4" required></textarea>
 
                 <fieldset>
@@ -73,7 +74,7 @@
                     <label><input type="radio" name="best-contact-time" value="anytime"> anytime</label>
                 </fieldset>
 
-                <label for="contact-method">Preferred Contact Method</label>
+                <label class="form-label" for="contact-method">Preferred Contact Method</label>
                 <select id="contact-method" name="contact-method" required>
                     <option value="phone">phone</option>
                     <option value="email">email</option>
@@ -91,6 +92,7 @@
             U.S. Bureau of Labor Statistics. (2025). <em>Software Developers</em>.
             https://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm
         </p>
+        <p><mark class="crafted">All media files in this portfolio are locally stored to meet submission requirements.</mark></p>
     </footer>
 
 </body>
