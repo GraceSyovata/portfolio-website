@@ -18,36 +18,47 @@
         </nav>
     </header>
 
-    <main>
-        <section>
+    <main class="career-page">
+        <section class="content-card">
             <h2>Career Vision</h2>
             <p>
-                Over the next 12 months, I plan to strengthen front-end development and debugging practices by building
-                projects with stronger accessibility and performance standards. Long term, I aim to grow into a
-                full-stack engineering role where I can deliver dependable software for real users (U.S. Bureau of
-                Labor Statistics, 2025).
+                I intend to couple my creativeness, technology, and decision-making skills to create applications ease
+                life
+                , make it more beautiful while ensuring connectivity.
             </p>
         </section>
 
-        <section>
+        <section class="portfolio-media content-card">
             <h2>Portfolio Media</h2>
-            <img src="images/RGN1 Task 1 Portfolio Website.jpg" alt="Portfolio project preview" class="profile-pic">
-            <div class="media-block">
-                <audio controls>
-                    <source src="audio/intro.mp3" type="audio/mpeg">
-                    Your browser does not support the audio element.
-                </audio>
-            </div>
-            <div class="media-block">
-                <video controls width="420">
-                    <source src="video/intro.mp4" type="video/mp4">
-                    Your browser does not support the video element.
-                </video>
+            <div class="media-grid">
+                <figure class="media-item">
+                    <h3 class="media-title">Portfolio Preview</h3>
+                    <img src="images/portfolio-website-preview.jpg" alt="Portfolio project preview" class="profile-pic">
+                    <figcaption class="media-file">File: portfolio-website-preview.jpg</figcaption>
+                </figure>
+
+                <div class="media-item media-block">
+                    <h3 class="media-title">Audio Introduction</h3>
+                    <audio controls preload="metadata">
+                        <source src="audio/career-intro-audio.mp3" type="audio/mpeg">
+                        The audio aspect is not supported by this browser.
+                    </audio>
+                    <p class="media-file">File: career-intro-audio.mp3</p>
+                </div>
+
+                <div class="media-item media-block">
+                    <h3 class="media-title">Video Introduction</h3>
+                    <video controls preload="metadata" class="intro-video">
+                        <source src="video/career-intro-video.mp4" type="video/mp4">
+                        The video aspect is not supported by this browser.
+                    </video>
+                    <p class="media-file">File: career-intro-video.mp4</p>
+                </div>
             </div>
         </section>
 
-        <section>
-            <h2>Professional Contact Form</h2>
+        <section class="content-card">
+            <h2>Contact Me</h2>
             <form id="contact-form" action="https://wp.zybooks.com/form-viewer.php" method="post">
                 <label class="form-label" for="first-name">First Name</label>
                 <input type="text" id="first-name" name="first-name" required>
@@ -69,30 +80,25 @@
 
                 <fieldset>
                     <legend>Best Contact Time</legend>
-                    <label><input type="radio" name="best-contact-time" value="a.m." required> a.m.</label>
-                    <label><input type="radio" name="best-contact-time" value="p.m."> p.m.</label>
-                    <label><input type="radio" name="best-contact-time" value="anytime"> anytime</label>
+                    <label><input type="radio" name="best-contact-time" value="A.M." required> A.M.</label>
+                    <label><input type="radio" name="best-contact-time" value="P.M."> P.M.</label>
+                    <label><input type="radio" name="best-contact-time" value="Anytime"> Anytime</label>
                 </fieldset>
 
                 <label class="form-label" for="contact-method">Preferred Contact Method</label>
                 <select id="contact-method" name="contact-method" required>
-                    <option value="phone">phone</option>
-                    <option value="email">email</option>
-                    <option value="text">text</option>
+                    <option value="Phone">Phone</option>
+                    <option value="Email">Email</option>
+                    <option value="Text">Text</option>
                 </select>
 
-                <button type="submit">Submit</button>
+                <button type="submit">Send</button>
             </form>
         </section>
     </main>
 
     <footer>
-        <h3>References</h3>
-        <p>
-            U.S. Bureau of Labor Statistics. (2025). <em>Software Developers</em>.
-            https://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm
-        </p>
-        <p><mark class="crafted">All media files in this portfolio are locally stored to meet submission requirements.</mark></p>
+        <p>(c) 2025 Eddy Aladin -- Designed with and curiosity</p>
     </footer>
 
 </body>
